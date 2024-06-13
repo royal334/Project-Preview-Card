@@ -1,0 +1,71 @@
+body{background-color: hsl(30, 38%, 92%);}
+
+    .card{position: absolute;
+      left:50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      border: 0px;}
+
+      .image1{height: 100%;}
+      
+    h1{font-family: "Fraunces", "sans-serif";
+    font-weight: 700;
+    } 
+
+    h2{font-size: 14px;
+    color:hsl(228, 12%, 48%);
+    font-family: "Montserrat", cursive;}
+
+  .floral{font-size: 14px;}  
+    p{font-family: "Montserrat", cursive;}
+
+    .first-price{font-size: 2.5rem;
+      font-family: "Fraunces", "sans-serif";
+      color: hsl(158, 36%, 37%);
+      font-weight: 700;
+      display: inline;
+    }
+
+    .last-price{display: inline;
+    }
+    
+    
+    .btn{background-color: hsl(158, 36%, 37%);
+     margin-top: 10px; 
+     
+  }
+
+    .cart{
+      font-family:"Fraunces", "sans-serif";
+      color: white;
+    display: inline;} 
+      
+    svg{color: white;
+    display: inline;}  
+    .btn:hover{background-color: hsl(158, 36%, 37%);
+      color: white}
+    .image2{
+   display: none;
+}
+
+@media only screen and (max-width: 576px){ 
+   .image1{
+     display: none;
+   }
+
+   .image2{
+     display: block;
+   }
+}
+@media(min-width:375px) and(max-width:1439px) {
+  body{width:100%;}
+  
+    
+}
+    .attribution { font-size: 11px; text-align: center;
+      }
+
+      
+    .attribution a { color: hsl(228, 45%, 44%); }
